@@ -1,0 +1,8 @@
+- type: issues
+  config:
+    token: e2bb971f0b8c359d239cb8ed5e70549e16fa0dd1
+    login: jakartaeechina
+    repo: blog
+    prefix: jakartachina
+    output: ../jakartachina/content/blog/
+

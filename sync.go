@@ -105,6 +105,7 @@ func syncSource(source Source) error {
 
 		ew.writeString("---\n")
 		ew.writeString(fmt.Sprintf("title: %s\n", p.Title()))
+		ew.writeString("hide_sidebar: true\n") 
 		ew.writeString(fmt.Sprintf("date: %s\n", p.CreatedAt().String()))
 		ew.writeString(fmt.Sprintf("lastmod: %s\n", p.UpdatedAt().String()))
 		tags := p.Tags()
